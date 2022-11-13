@@ -1,0 +1,267 @@
+body {
+  background-color: #E4D8DC;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.top-container {
+  position: relative;
+  margin:0;
+}
+
+.top-box1 {
+  background-color:#C89595;
+  height:300px;
+  width:300px;
+  position:absolute;
+}
+
+.top-box2 {
+  height:300px;
+  width:300px;
+  position: absolute;
+  left:300px;
+  top:300px;
+}
+
+.pink-oranges {
+  height:300px;
+  width:300px;
+}
+
+.pink-computer {
+  height:300px;
+  width:300px;
+}
+
+.pink-stuff {
+  height:300px;
+  width:300px;
+}
+
+.top-box3 {
+  background-color:#C89595;
+  height:300px;
+  width:300px;
+  margin-top:0;
+  margin-left:600px;
+}
+
+.top-box4 {
+  background-color:#CBF1F5;
+  height:300px;
+  width:300px;
+  margin-left: 900px;
+}
+
+.top-box5 {
+  background-color:#C9CCD5;
+  height:300px;
+  width:63px;
+  margin-left:1200px;
+  position: absolute;
+  top: 0;
+}
+
+.headings{
+  position: absolute;
+  top: 100px;
+  left: 529px;
+}
+
+.mmer {
+  color: #CBF1F5;
+}
+
+
+.middle-container {
+  background-color: #EDEDED;
+  position:relative;
+  padding: 50px;
+}
+
+.profile-photo {
+  width:20%;
+}
+
+.education {
+  width:50%;
+  margin: 0 auto 0 auto;
+}
+
+.neu-logo {
+  width:15%;
+  float:left;
+  margin-right: 20px;
+}
+
+.saif-logo {
+  width:15%;
+  float:left;
+  margin-right: 20px;
+}
+
+.sjtu-logo {
+  width:15%;
+  float:left;
+  margin-right: 20px;
+}
+
+.mcgill-logo {
+  width:15%;
+  float:left;
+  margin-right: 20px;
+}
+
+.education-row {
+  text-align: left;
+  margin:50px auto 50px auto;
+}
+
+.work {
+  width:60%;
+  margin: 0 auto 0 auto;
+}
+
+.bbg-logo {
+  width:15%;
+  float:left;
+  margin:20px 20px 20px 0;
+}
+
+.ppcl-logo {
+  width:15%;
+  float:right;
+  margin:20px 0 20px 20px;
+}
+
+.cicc-logo {
+  width:15%;
+  float:left;
+  margin:20px 20px 20px 0;
+}
+
+.work-row {
+  text-align: left;
+  margin:50px auto 50px auto;
+}
+
+.skills {
+  width:40%;
+  margin: 0 auto 0 auto;
+}
+
+.skill-row {
+  text-align: left;
+  margin:50px auto 50px auto;
+}
+
+.coding-icon {
+  width:10%;
+  float:left;
+  margin: 0 20px 0 100px;
+}
+
+.certificate-icon {
+  width:10%;
+  float:left;
+  margin: 0 20px 0 100px;
+}
+
+.language-icon {
+  width:10%;
+  float:left;
+  margin: 0 20px 0 100px;
+}
+
+.contact-me {
+  width:50%;
+  margin: 0 auto 0 auto;
+}
+
+.bottom-container {
+  background-color: #C9CCD5;
+  position:relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin:0;
+}
+
+
+hr {
+  margin:100px auto 50px auto;
+  border-style: dotted none none none;
+  border-top-width: 8px;
+  border-top-color: #DDBEBE;
+  width: 5%;
+}
+
+h1 {
+  font-size:3rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Satisfy', cursive;
+  color: #6C4A4A;
+}
+
+h2 {
+  font-size:1.5rem;
+  color: #C89595;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+h3 {
+  font-size:1.2rem;
+  color: #6C4A4A;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+h4 {
+  font-size:1rem;
+  color: #6C4A4A;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+h6 {
+  color: #6C4A4A;
+  font-family: 'Lato', Arial, sans-serif;
+  margin:30px auto 0 auto;
+}
+
+p {
+  color: #6C4A4A;
+}
+
+.footer-link {
+  font-family: 'Lato', Arial, sans-serif;
+  text-decoration: none;
+  color:#6C4A4A;
+  padding:20px;
+}
+
+.btn {
+  background: #93B5C6;
+  background-image: -webkit-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: -moz-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: -ms-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: -o-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: linear-gradient(to bottom, #93B5C6, #C9CCD5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lato', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #DDBEBE;
+  background-image: -webkit-linear-gradient(top, #DDBEBE, #C89595);
+  background-image: -moz-linear-gradient(top, #DDBEBE, #C89595);
+  background-image: -ms-linear-gradient(top, #DDBEBE, #C89595);
+  background-image: -o-linear-gradient(top, #DDBEBE, #C89595);
+  background-image: linear-gradient(to bottom, #DDBEBE, #C89595);
+  text-decoration: none;
+}
