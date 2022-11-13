@@ -83,6 +83,7 @@ body {
 
 .profile-photo {
   width:20%;
+  margin: 0 auto 20px auto;
 }
 
 .education {
