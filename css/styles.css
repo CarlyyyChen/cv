@@ -121,14 +121,14 @@ body {
 }
 
 .work {
-  width:60%;
+  width:50%;
   margin: 0 auto 0 auto;
 }
 
 .bbg-logo {
   width:15%;
-  float:left;
-  margin:20px 20px 20px 0;
+  float:right;
+  margin:20px 0 20px 20px;
 }
 
 .ppcl-logo {
@@ -139,8 +139,8 @@ body {
 
 .cicc-logo {
   width:15%;
-  float:left;
-  margin:20px 20px 20px 0;
+  float:right;
+  margin:20px 0 20px 20px;
 }
 
 .work-row {
@@ -149,7 +149,7 @@ body {
 }
 
 .skills {
-  width:40%;
+  width:50%;
   margin: 0 auto 0 auto;
 }
 
@@ -161,19 +161,19 @@ body {
 .coding-icon {
   width:10%;
   float:left;
-  margin: 0 20px 0 100px;
+  margin: 0 50px 0 100px;
 }
 
 .certificate-icon {
   width:10%;
   float:left;
-  margin: 0 20px 0 100px;
+  margin: 0 50px 0 100px;
 }
 
 .language-icon {
   width:10%;
   float:left;
-  margin: 0 20px 0 100px;
+  margin: 0 50px 0 100px;
 }
 
 .contact-me {
