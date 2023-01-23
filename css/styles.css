@@ -1,194 +1,33 @@
 body {
-  background-color: #E4D8DC;
-  margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Montserrat";
   text-align: center;
 }
 
-.top-container {
-  position: relative;
-  margin:0;
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
-.top-box1 {
-  background-color:#C89595;
-  height:300px;
-  width:300px;
-  position:absolute;
+h2 {
+  font-size:1.75rem;
+  color: #C89595;
+  line-height: 1.5;
 }
 
-.top-box2 {
-  height:300px;
-  width:300px;
-  position: absolute;
-  left:300px;
-  top:300px;
+h3 {
+  font-size: 1.75rem;
 }
 
-.pink-oranges {
-  height:300px;
-  width:300px;
-}
-
-.pink-computer {
-  height:300px;
-  width:300px;
-}
-
-.pink-stuff {
-  height:300px;
-  width:300px;
-}
-
-.top-box3 {
-  background-color:#C89595;
-  height:300px;
-  width:300px;
-  margin-top:0;
-  margin-left:600px;
-}
-
-.top-box4 {
-  background-color:#CBF1F5;
-  height:300px;
-  width:300px;
-  margin-left: 900px;
-}
-
-.top-box5 {
-  background-color:#C9CCD5;
-  height:300px;
-  width:63px;
-  margin-left:1200px;
-  position: absolute;
-  top: 0;
-}
-
-.headings{
-  position: absolute;
-  top: 100px;
-  left: 529px;
-}
-
-.mmer {
-  color: #CBF1F5;
+h4 {
+  color: #C89595;
+  font-size: 1.25rem;
 }
 
 
-.middle-container {
-  background-color: #EDEDED;
-  position:relative;
-  padding: 50px;
+p {
+  color:#8f8f8f;
+  font-size: 1rem;
 }
-
-.profile-photo {
-  width:20%;
-  margin: 0 auto 20px auto;
-}
-
-.education {
-  width:50%;
-  margin: 0 auto 0 auto;
-}
-
-.neu-logo {
-  width:15%;
-  float:left;
-  margin-right: 20px;
-}
-
-.saif-logo {
-  width:15%;
-  float:left;
-  margin-right: 20px;
-}
-
-.sjtu-logo {
-  width:15%;
-  float:left;
-  margin-right: 20px;
-}
-
-.mcgill-logo {
-  width:15%;
-  float:left;
-  margin-right: 20px;
-}
-
-.education-row {
-  text-align: left;
-  margin:50px auto 50px auto;
-}
-
-.work {
-  width:50%;
-  margin: 0 auto 0 auto;
-}
-
-.bbg-logo {
-  width:15%;
-  float:right;
-  margin:20px 0 20px 20px;
-}
-
-.ppcl-logo {
-  width:15%;
-  float:right;
-  margin:20px 0 20px 20px;
-}
-
-.cicc-logo {
-  width:15%;
-  float:right;
-  margin:20px 0 20px 20px;
-}
-
-.work-row {
-  text-align: left;
-  margin:50px auto 50px auto;
-}
-
-.skills {
-  width:50%;
-  margin: 0 auto 0 auto;
-}
-
-.skill-row {
-  text-align: left;
-  margin:50px auto 50px auto;
-}
-
-.coding-icon {
-  width:10%;
-  float:left;
-  margin: 0 50px 0 100px;
-}
-
-.certificate-icon {
-  width:10%;
-  float:left;
-  margin: 0 50px 0 100px;
-}
-
-.language-icon {
-  width:10%;
-  float:left;
-  margin: 0 50px 0 100px;
-}
-
-.contact-me {
-  width:50%;
-  margin: 0 auto 0 auto;
-}
-
-.bottom-container {
-  background-color: #C9CCD5;
-  position:relative;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin:0;
-}
-
 
 hr {
   margin:100px auto 50px auto;
@@ -198,49 +37,149 @@ hr {
   width: 5%;
 }
 
-h1 {
-  font-size:3rem;
-  margin: 0 auto 0 auto;
-  font-family: 'Satisfy', cursive;
-  color: #6C4A4A;
+/* Sections */
+.colored-section {
+  background-color: #C89595;
+  color:#fff;
 }
 
-h2 {
-  font-size:1.5rem;
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+.aprogrammer {
+  color: #ECE2E1;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 5% 15% 3%;
+}
+
+.navbar {
+  padding:0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Profile */
+.profile{
+  padding: 5%;
+}
+
+.profile-image {
+  width: 70%;
+}
+
+/* Education */
+.education-box {
+padding: 5% 0 0 0;
+}
+
+.education-image {
+width:25%;
+
+}
+
+.education-school {
+  margin-top: 5%;
+}
+
+.education-text {
+}
+
+/* Work */
+#work {
+  background-color: #ECE2E1;
+}
+
+.company-name {
+  color:#C89595;
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-top: 20px;
+  color:#C89595;
+  font-size: 1.25rem;
+}
+
+.work-text {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.carousel-item {
+  padding: 7% 20% 5%;
+}
+
+.company-image{
+   width:25%;
+   margin-top: 10%;
+}
+
+/* Skills */
+#skills {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.skill-box {
+  padding: 10% 5% 0;
+}
+
+.skill-icon{
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.skill-title {
   color: #C89595;
-  font-family: 'Lato', Arial, sans-serif;
+  font-size: 1rem;
 }
 
-h3 {
-  font-size:1.2rem;
-  color: #6C4A4A;
-  font-family: 'Lato', Arial, sans-serif;
+/* Footer */
+
+#footer {
+  padding: 0 10% 2%;
+  background-color: #C9CCD5;
 }
 
-h4 {
-  font-size:1rem;
-  color: #6C4A4A;
-  font-family: 'Lato', Arial, sans-serif;
+.social-icon {
+  margin: 10% 1% 2%;
+  color: #fff;
 }
 
-h6 {
-  color: #6C4A4A;
-  font-family: 'Lato', Arial, sans-serif;
-  margin:30px auto 0 auto;
+.social-icon:hover {
+  color: #ef8172;
 }
 
-p {
-  color: #6C4A4A;
-}
-
-.footer-link {
-  font-family: 'Lato', Arial, sans-serif;
-  text-decoration: none;
-  color:#6C4A4A;
-  padding:20px;
-}
-
-.btn {
+.btn-contactme {
   background: #93B5C6;
   background-image: -webkit-linear-gradient(top, #93B5C6, #C9CCD5);
   background-image: -moz-linear-gradient(top, #93B5C6, #C9CCD5);
@@ -255,14 +194,16 @@ p {
   font-size: 15px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
-.btn:hover {
-  background: #DDBEBE;
-  background-image: -webkit-linear-gradient(top, #DDBEBE, #C89595);
-  background-image: -moz-linear-gradient(top, #DDBEBE, #C89595);
-  background-image: -ms-linear-gradient(top, #DDBEBE, #C89595);
-  background-image: -o-linear-gradient(top, #DDBEBE, #C89595);
-  background-image: linear-gradient(to bottom, #DDBEBE, #C89595);
+.btn-contactme:hover {
+  background: #C89595;
+  background-image: -webkit-linear-gradient(top, #ef8172, #C89595);
+  background-image: -moz-linear-gradient(top, #ef8172, #C89595);
+  background-image: -ms-linear-gradient(top, #ef8172, #C89595);
+  background-image: -o-linear-gradient(top, #ef8172, #C89595);
+  background-image: linear-gradient(to bottom, #ef8172, #C89595);
+  color: #ffffff;
   text-decoration: none;
 }
