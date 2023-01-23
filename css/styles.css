@@ -143,6 +143,16 @@ width:25%;
    margin-top: 10%;
 }
 
+.carousel-control-prev-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
 /* Skills */
 #skills {
   padding: 7% 15%;
