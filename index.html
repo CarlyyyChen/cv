@@ -50,6 +50,9 @@
                 <a class="nav-link" href="#work">Profession</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
             </ul>
@@ -64,7 +67,10 @@
 
           <div class="profile col-lg-6">
             <h1 class="big-heading">I am Carly.</h1>
-            <h3 class="aprogrammer">A programmer.</h3>
+            <!-- <h3 class="aprogrammer"> -->
+              <h6 class="about">A graduate student majoring in Computer Science at Northeastern University. </h6>
+              <h6 class="about">With three years of experience as a Data Analyst at Bloomberg, I bring expertise in the Financial market and excellent problem-solving capabilities and interpersonal skills. </h6>
+              <h6 class="about">Adaptable and collaborative, I thrive in fast-paced environments and deliver innovative solutions. </h6>
           </div>
 
           <div class="profile col-lg-6">
@@ -95,9 +101,10 @@
         <div class="education-box col-lg-6">
           <h4 class="education-school">Northeastern Univeristy</h4>
           <p class="education-text">
+              <b>GPA: 4.0 / 4.0 </b><br>
               Master of Computer Science<br>
-              Khoury College of Computer Science<br>
-              Object-Oriented Design, Data Structures, Algorithms</p>
+              Object-Oriented Design, Data Structures, Algorithms<br>
+              Mobile App Development, Data Management</p>
         </div>
         </div>
 
@@ -110,6 +117,7 @@
         <div class="education-box col-lg-6">
           <h4 class="education-school">Shanghai Advanced Institute of Finance</h4>
           <p class="education-text">
+            <b>GPA: 3.8 / 4.0</b><br>
             Master of Finance<br>
                 Class President</p>
         </div>
@@ -122,8 +130,9 @@
         <div class="education-box col-lg-6">
           <h4 class="education-school">Shanghai Jiao Tong University</h4>
           <p class="education-text">
+            <b>GPA: 3.7 / 4.0 </b><br>
             Bachelor’s Degree in Economics<br>
-              Antai College of Economics and Management</p>
+            Antai College of Economics and Management</p>
         </div>
       </div>
 
@@ -135,7 +144,10 @@
           <h4 class="education-school">McGill University</h4>
           <p class="education-text">
             Exchange<br>
-              Desautels Faculty of Management</p>
+            Desautels Faculty of Management<br>
+            <b>Full scholarship</b><br>
+            from China Scholarship Committee</p>
+
         </div>
       </div>
 
@@ -151,14 +163,24 @@
 
 <h2>Professional Experience</h2>
 
-  <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+  <div id="work-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner role="listbox" style=" width:100%; height: 600px !important;">
           <div class="carousel-item active container-fluid">
+            <h3 class="company-name">Ping An Technology</h3>
+            <h4 class="title">Software Engineering Intern</h4>
+            <p class="work-text">1. Designed the front-end of Ping An Group Website to showcase company products and user reviews. Communicated with business teams regarding the requirement and implemented website features using React. Utilized HTML, CSS, Bootstrap and JavaScript to enhance the visual design and interactivity <br>
+            <br>2. Maintained the functionality of the website and optimized the structure and design of fundamental components <br>
+            <br>3. Collaborated closely with product, testing, and operations teams, and propose reasonable technical solutions based on requirements
+            </p>
+          <img class="company-image" src="images/pingan.png" alt="pingan-image">
+        </div>
+
+          <div class="carousel-item container-fluid">
               <h3 class="company-name">Bloomberg L.P.</h3>
               <h4 class="title">Advanced Fixed Income Analyst | Full-time</h4>
-              <p class="work-text">1. Provided product consulting services for global users based on their workflow<br>
-              2. Worked with product managers to testify product issues and implement enhancements <br>
-              3. Initiated and organized global campaigns to pitch solutions
+              <p class="work-text">1. Leveraged on Bloomberg Query Language (BQL) to get access to Bloomberg Financial Database and to construct excel templates, compiling and analyzing market data over 5,000 fixed income instruments. Hosted webinars to demonstrate and pitch the template to clients across 10+ countries<br>
+              <br>2. Worked with product managers and engineers to testify product issues and implement enhancements to benefit more than 5,800 users. Initiated and organized global campaigns to pitch solutions, adopted by 6,500+ users  <br>
+              <br>3. Ranked top 5% among all analysts in APAC with 97% quality control score, 100% customer satisfaction rate and 54% higher efficiency than peers
               </p>
             <img class="company-image" src="images/bbg.png" alt="bbg-image">
           </div>
@@ -186,10 +208,10 @@
 
         </div>
 
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#work-carousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#work-carousel" role="button" data-slide="next">
       <span class="carousel-control-next-icon"></span>
         </a>
       </div>
@@ -198,6 +220,67 @@
 
 
 </section>
+
+<!-- Projects -->
+
+<section class="colored-section" id="project">
+
+  <div class="container-fluid">
+  
+  <h2 class="projectText">Projects</h2>
+  
+    <div id="project-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner" role="listbox" style=" width:100%; height: 600px !important;">
+            <div class="carousel-item active container-fluid">
+              <h3><a class="company-name projectTitle" href="https://github.com/CarlyyyChen/UniVerse.git">UniVerse</a></h3>
+              <h4 class="title projectText">A Social Media & Community Mobile Application</h4>
+              <p class="work-text projectText">1. Designed and developed a social media and community application using Java/Android Studio. The application allows users to manage their profile, post, explore and save local events, follow other users and chat with them <br>
+              <br>2. Designed the User Interface in xml with 10 different screens and 15+ fragments. Utilized Firebase Authentication to support both email/password login and Google Account sign-in <br>
+              <br>3. Built the back end on Google Firebase, including four collections. Major collections are users and events. Created another chats collection for each user, and messages collection for each chat document to support the chat feature<br>
+              <br>4. Implemented CameraX for users to take photo. Also built adapters for sharing events and location to support corresponding features
+            </p>
+          </div>
+  
+            <div class="carousel-item container-fluid">
+                <h3 ><a class="company-name projectTitle" href="https://github.com/CarlyyyChen/Blog.git">Personal Blog Website </a></h3>
+                <h4 class="title projectText">MongoDB, Express, Node.js, React</h4>
+                <p class="work-text projectText">1. Designed and built a full-stack blogging platform allowing traveling enthusiasts to share, visit and comment on posts of travel logs<br>
+                <br>2. Built responsive pages using React. Utilized HTML, CSS, Bootstrap and JavaScript for the front-end to enhance the visual design and interactivity of the website<br>
+                <br>3. Implemented RESTful API providing backend service with Express framework on Node.js<br>
+                <br>4. Ensured user information and image data storage with MongoDB and its accessibility via Mongoose
+                </p>
+            </div>
+  
+            <div class="carousel-item container-fluid">
+              <h3><a class="company-name projectTitle" href="https://github.com/CarlyyyChen/JavaPhotoAlbum.git">Photo Album Application</a> </h3>
+              <h4 class="title projectText">Java, Java Swing</h4>
+              <p class="work-text projectText">1. Developed a photo album application using Java Swing for the Graphical User Interface and the MVC design pattern for the underlying architecture. <br>
+                <br>2. Implemented features such as images/shapes creation, viewing, tagging, editing, taking, and naming snapshots, and organizing photos into albums <br>
+              </p>
+            </div>
+  
+            <div class="carousel-item container-fluid">
+              <h3 class="company-name projectText">Stock Trading Data Analytics</h3>
+              <h4 class="title projectText">Python</h4>
+              <p class="work-text projectText">1. •	Utilized Pandas, Numpy and Matplotlib to process data for stock trading volume and absolute return over 1,351 samples in Chinese stock market. Ran regression with dummy variables for the existence of suspension. <br>
+                <br>2. Concluded that suspension itself will cause 1916.50% higher absolute return and 326.86% higher trading volume<br>
+              </p>
+            </div>
+  
+          </div>
+  
+          <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+  
+        </div>
+  
+  
+  </section>
 
 <!-- Skills -->
 
@@ -210,14 +293,14 @@
 <div class="row">
         <div class="skill-box col-lg-4">
           <img class="skill-icon" src="images/code.png" alt="coding-icon">
-          <h3 class="skill-title">Programming tools</h3>
-          <p>Java, JavaScript, Python, C Language</p>
+          <h3 class="skill-title">Programming languages</h3>
+          <p>Java, Python, C Language, R, SQL, HTML, CSS, JavaScript</p>
         </div>
 
         <div class="skill-box col-lg-4">
           <img class="skill-icon" src="images/certificate.png" alt="certificate-icon">
-          <h3 class="skill-title">Qualifications</h3>
-          <p>CFA III candidate, FRM II candidate</p>
+          <h3 class="skill-title">Framwork & Tools</h3>
+          <p>Firebase, Git, Github, MongoDB, Node.js, Express.js, React, Postman</p>
         </div>
 
         <div class="skill-box col-lg-4">
