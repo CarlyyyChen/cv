@@ -56,7 +56,7 @@ hr {
   color:#fff;
 }
 
-.aprogrammer {
+.about {
   color: #ECE2E1;
 }
 
@@ -151,6 +151,21 @@ width:25%;
 .carousel-control-next-icon {
   height: 30px;
   width: 30px;
+}
+
+/* Project */
+.projectTitle {
+  color: #ECE2E1;
+  text-decoration: underline;
+}
+
+.projectTitle:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.projectText {
+  color: #ECE2E1;
 }
 
 /* Skills */
