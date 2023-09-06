@@ -1,0 +1,234 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h2 {
+  font-size:1.75rem;
+  color: #C89595;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  color: #C89595;
+  font-size: 1.25rem;
+}
+
+
+p {
+  color:#8f8f8f;
+  font-size: 1rem;
+}
+
+hr {
+  margin:100px auto 50px auto;
+  border-style: dotted none none none;
+  border-top-width: 8px;
+  border-top-color: #DDBEBE;
+  width: 5%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #C89595;
+  color:#fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+.about {
+  color: #ECE2E1;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 5% 15% 3%;
+}
+
+.navbar {
+  padding:0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Profile */
+.profile{
+  padding: 5%;
+}
+
+.profile-image {
+  width: 70%;
+}
+
+/* Education */
+.education-box {
+padding: 5% 0 0 0;
+}
+
+.education-image {
+width:25%;
+
+}
+
+.education-school {
+  margin-top: 5%;
+}
+
+.education-text {
+}
+
+/* Work */
+#work {
+  background-color: #ECE2E1;
+}
+
+.company-name {
+  color:#C89595;
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-top: 20px;
+  color:#C89595;
+  font-size: 1.25rem;
+}
+
+.work-text {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.carousel-item {
+  padding: 7% 20% 5%;
+}
+
+.company-image{
+   width:25%;
+   margin-top: 10%;
+}
+
+.carousel-control-prev-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* Project */
+.projectTitle {
+  color: #ECE2E1;
+  text-decoration: underline;
+}
+
+.projectTitle:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.projectText {
+  color: #ECE2E1;
+}
+
+/* Skills */
+#skills {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.skill-box {
+  padding: 10% 5% 0;
+}
+
+.skill-icon{
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.skill-title {
+  color: #C89595;
+  font-size: 1rem;
+}
+
+/* Footer */
+
+#footer {
+  padding: 0 10% 2%;
+  background-color: #C9CCD5;
+}
+
+.social-icon {
+  margin: 10% 1% 2%;
+  color: #fff;
+}
+
+.social-icon:hover {
+  color: #ef8172;
+}
+
+.btn-contactme {
+  background: #93B5C6;
+  background-image: -webkit-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: -moz-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: -ms-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: -o-linear-gradient(top, #93B5C6, #C9CCD5);
+  background-image: linear-gradient(to bottom, #93B5C6, #C9CCD5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lato', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.btn-contactme:hover {
+  background: #C89595;
+  background-image: -webkit-linear-gradient(top, #ef8172, #C89595);
+  background-image: -moz-linear-gradient(top, #ef8172, #C89595);
+  background-image: -ms-linear-gradient(top, #ef8172, #C89595);
+  background-image: -o-linear-gradient(top, #ef8172, #C89595);
+  background-image: linear-gradient(to bottom, #ef8172, #C89595);
+  color: #ffffff;
+  text-decoration: none;
+}
